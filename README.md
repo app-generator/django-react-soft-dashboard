@@ -2,6 +2,8 @@
 
 Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/django-react-soft-dashboard) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
 
+<br />
+
 > Features
 
 - Innovative Material-UI Design - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
@@ -14,9 +16,9 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > Links
 
-- [Django React Soft Dashboard](https://appseed.us/product/django-react-soft-dashboard) - product page
-- [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-- Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- 👉 [Django React Soft Dashboard](https://appseed.us/product/django-react-soft-dashboard) - product page
+- 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
+- 👉 Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
@@ -30,15 +32,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
-## Quick-start 
-
-> Clone/Download the source code
-
-```bash
-$ git clone  https://github.com/app-generator/django-react-soft-dashboard.git
-```
-
-<br />
+## ✨ Quick-start 
 
 > Start the Django API using `Docker`
 
@@ -68,7 +62,7 @@ After we register a new user and Sign IN, all the private pages become accessibl
 
 <br >
 
-## General Information
+## ✨ General Information
 
 The product is built using a `two-tier` pattern where the React frontend is decoupled logically and physically from the API backend. How to use the product: 
 
@@ -82,7 +76,7 @@ The product is built using a `two-tier` pattern where the React frontend is deco
 
 <br />
 
-## Manual build
+## ✨ Manual build
 
 ### Start the Django API 
 
@@ -164,7 +158,7 @@ const config = {
 
 <br />
 
-## API
+## ✨ API
 
 For a fast set up, use this POSTMAN file: [api_sample](https://github.com/app-generator/api-server-unified/blob/main/api.postman_collection.json)
 
@@ -208,6 +202,33 @@ authorization: JWT_TOKEN (returned by Login request)
     "token":"JWT_TOKEN"
 }
 ```
+
+<br />
+
+## ✨ Product UI
+
+> **Django React Soft UI Dashboard** - Login 
+
+![Django React Soft UI Dashboard - Login.](https://user-images.githubusercontent.com/51070104/142403942-3a2228e6-c769-4259-8e78-c000056db7c4.png)
+
+<br />
+
+> **Django React Soft UI Dashboard** - User Profile
+
+![Django React Soft UI Dashboard - User Profile](https://user-images.githubusercontent.com/51070104/142403992-81e86dc5-4d73-4cca-8a1b-300a0f5475a0.png)
+
+<br />
+
+> **Django React Soft UI Dashboard** - Billing Page
+
+![Django React Soft UI Dashboard - Billing Page.](https://user-images.githubusercontent.com/51070104/142404073-68b96008-fb06-4ff5-98cf-c8e3eca636c9.png)
+
+<br />
+
+## Links & Resources
+
+- Ask for [Support](https://appseed.us/support) on [Discord](https://discord.gg/fZC6hup)
+- See for [React Starters](https://appseed.us/apps/react) - index provided by AppSeed
 
 <br />
 
