@@ -16,44 +16,87 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 - [Django React Soft Dashboard](https://appseed.us/product/django-react-soft-dashboard) - product page
 - [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-- Download Backend: [Django API Server 📥](https://github.com/app-generator/api-server-django/archive/refs/heads/main.zip)
-- Donwnload Frontend: [React Soft Dashboard 📥](https://github.com/app-generator/react-soft-ui-dashboard/archive/refs/heads/main.zip)  
-* Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
-* Related Products:
-  - Node JS API Backend - [Node React Soft Dashboard](https://appseed.us/product/node-js-react-soft-dashboard) - `open-source` project
+- Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
-<br >
+<br />
+
+> React UI Tests:
+
+| NodeJS | NPM | YARN | Status | 
+| --- | --- | --- | --- | 
+| `v16.13.0` | `v8.1.0`   | `v1.22.5` | ✔️ | 
+| `v14.15.0` | `v6.14.8`  | `v1.22.5` | ✔️ |
+| `v12.22.0` | `v6.14.11` | `v1.22.5` | ✔️ |
+
+<br />
+
+## Quick-start 
+
+> Clone/Download the source code
+
+```bash
+$ git clone  https://github.com/app-generator/django-react-soft-dashboard.git
+```
+
+<br />
+
+> Start the Django API using `Docker`
+
+```bash
+$ cd django-api
+$ docker-compose up --build  
+```
+
+At this point, the API should be up & running at `http://localhost:5000`, and we can test the interface using POSTMAN or `curl`.
+
+<br />
+
+> Start the React UI (using another terminal)
+
+```bash
+$ cd react-ui
+$ yarn         # install dependencies
+$ yarn start   # start the app 
+```
+
+Once all the above commands are executed, the `React UI` should be visible in the browser. By default, the app redirects the guest users to authenticate. 
+After we register a new user and Sign IN, all the private pages become accessible. 
+
+<br />
 
 ![React Soft Dashboard - Open-source full-stack product with Django API Backend.](https://user-images.githubusercontent.com/51070104/136687466-1dfeeb6b-d474-45df-879b-0857b27eb615.gif) 
 
 <br >
 
-> **Note**: This product can be used with other API Servers for a complete fullstack experience. **ALL API servers use an unified interface**
+## General Information
 
-- [Flask API Server](https://github.com/app-generator/api-server-flask) - open-source product
-- [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - open-source product / Typescript / SQLite / TypeORM / Joy for validation
-- [Node JS API Server PRO](https://github.com/app-generator/api-server-nodejs-pro) - **commercial product**
-    - SQLite / TypeORM / Joy / Docker
-    - MongoDB / Mongoose / Joy Docker (separate branch, same project)
+The product is built using a `two-tier` pattern where the React frontend is decoupled logically and physically from the API backend. How to use the product: 
+
+- `Compile and start` the **Django API Backend**
+  - by default the server starts on port `5000`
+- `Compile and start` the **React UI**
+  - UI will start on port `3000` and expects a running backend on port `5000`
+- `Configuration` (Optional)
+  - Change the API port
+  - Configure the API port used by the React UI to communicate with the backend 
 
 <br />
 
-## Start Django API Server
+## Manual build
+
+### Start the Django API 
 
 Simple starter built with Python / DRF Library / Sqlite3 and JWT Auth. The authentication flow is based on [json web tokens](https://jwt.io).
 
 <br />
 
-> How to use the code
-
-**Step #1** -  Clone the sources
+> **Step #1** -  Change the directory to `django-api`
 
 ```bash
-$ git clone https://github.com/app-generator/api-server-django.git
-$ cd api-server-django
+$ cd flask-api
 ```
 
-**Step #2** - Create a virtual environment
+> **Step #2** - Create a virtual environment
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
@@ -82,42 +125,33 @@ The API server will start using the explicit port `5000`.
 
 <br />
 
-## Start React UI 
-
-To use the product Node JS (>= 12.x) is required and GIT to clone/download the project from the public repository.
-
-**Step #1** - Clone the project
+### Compile & start the React UI
 
 ```bash
-$ git clone https://github.com/app-generator/react-soft-ui-dashboard.git
-$ cd react-soft-ui-dashboard
-```
-
-<br >
-
-**Step #2** - Install dependencies via NPM or yarn
-
-```bash
-$ npm i
-// OR
+$ cd react-ui
+$
+$ # Install Modules
 $ yarn
+$
+$ # Start for development (LIVE Reload)
+$ yarn start 
 ```
 
 <br />
 
-**Step #3** - Start in development mode
+### Configuration (Optional)
+
+> Change the port exposed by the Flask API
 
 ```bash
-$ npm run start 
-// OR
-$ yarn start
+$ flask run --port=5001
 ```
+
+Now, the API starts on port `5001`. 
 
 <br />
 
-## Configure the backend server
-
-The product comes with a usable JWT Authentication flow that provides only the basic requests: login/logout/register. 
+> Update the API port used by the React Frontend
 
 **API Server URL** - `src/config/constant.js` 
 
@@ -130,11 +164,50 @@ const config = {
 
 <br />
 
-**API Server Descriptor** - POSTMAN Collection
+## API
 
-The backend server uses an [Unified API defition](https://docs.appseed.us/boilerplate-code/api-server/api-unified-definition) maintained and actively supported by AppSeed across multiple frameworks: Flask, Node JS, FastAPI.
+For a fast set up, use this POSTMAN file: [api_sample](https://github.com/app-generator/api-server-unified/blob/main/api.postman_collection.json)
 
-- [API POSTMAN Collection](https://github.com/app-generator/api-unified-definition/blob/main/api.postman_collection.json) - can be used to mock (simulate) the backend server or code a new one in your preferred framework. 
+> **Register** - `api/users/register` (**POST** request)
+
+```
+POST api/users/register
+Content-Type: application/json
+
+{
+    "username":"test",
+    "password":"pass", 
+    "email":"test@appseed.us"
+}
+```
+
+<br />
+
+> **Login** - `api/users/login` (**POST** request)
+
+```
+POST /api/users/login
+Content-Type: application/json
+
+{
+    "password":"pass", 
+    "email":"test@appseed.us"
+}
+```
+
+<br />
+
+> **Logout** - `api/users/logout` (**POST** request)
+
+```
+POST api/users/logout
+Content-Type: application/json
+authorization: JWT_TOKEN (returned by Login request)
+
+{
+    "token":"JWT_TOKEN"
+}
+```
 
 <br />
 
