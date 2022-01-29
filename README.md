@@ -87,7 +87,7 @@ Simple starter built with Python / DRF Library / Sqlite3 and JWT Auth. The authe
 > **Step #1** -  Change the directory to `django-api`
 
 ```bash
-$ cd flask-api
+$ cd django-api
 ```
 
 <br />
