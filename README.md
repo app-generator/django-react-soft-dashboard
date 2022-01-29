@@ -90,6 +90,8 @@ Simple starter built with Python / DRF Library / Sqlite3 and JWT Auth. The authe
 $ cd flask-api
 ```
 
+<br />
+
 > **Step #2** - Create a virtual environment
 
 ```bash
@@ -102,11 +104,15 @@ $ # virtualenv env
 $ # .\env\Scripts\activate
 ```
 
+<br />
+
 > **Step #3** - Install dependencies using PIP
 
 ```bash
 $ pip install -r requirements.txt
 ```
+
+<br />
 
 > **Step #4** - Start the API server
 
