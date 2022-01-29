@@ -102,13 +102,13 @@ $ # virtualenv env
 $ # .\env\Scripts\activate
 ```
 
-**Step #3** - Install dependencies using PIP
+> **Step #3** - Install dependencies using PIP
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-**Step #4** - Start the API server
+> **Step #4** - Start the API server
 
 ```bash
 $ python manage.py migrate
