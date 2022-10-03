@@ -114,7 +114,17 @@ $ pip install -r requirements.txt
 
 <br />
 
-> **Step #4** - Start the API server
+> **Step #4** - Create a new `.env` file using sample `env.sample`
+
+The meaning of each variable can be found below: 
+
+- `DEBUG`: if `True` the app runs in develoment mode
+  - For production value `False` should be used
+- `SECRET_KEY`: used in assets management
+
+<br />
+
+> **Step #5** - Start the API server
 
 ```bash
 $ python manage.py migrate
@@ -141,13 +151,13 @@ $ yarn start
 
 ### Configuration (Optional)
 
-> Change the port exposed by the Flask API
+> Change the port exposed by the Djago API
 
 ```bash
-$ flask run --port=5001
+$ python manage.py runserver 5000
 ```
 
-Now, the API starts on port `5001`. 
+Now, the API will start on port `5000`. 
 
 <br />
 
@@ -158,7 +168,7 @@ Now, the API starts on port `5001`.
 ```javascript
 const config = {
     ...
-    API_SERVER: 'http://localhost:5000/api/'  // <-- The magic line
+    API_SERVER: 'http://localhost:5001/api/'  // <-- The magic line
 };
 ```
 
