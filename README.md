@@ -78,13 +78,13 @@ The product is built using a `two-tier` pattern where the React frontend is deco
 
 ## ✨ Manual build
 
-### Start the Django API 
+### **Start the Django API** 
 
 Simple starter built with Python / DRF Library / Sqlite3 and JWT Auth. The authentication flow is based on [json web tokens](https://jwt.io).
 
 <br />
 
-> **Step #1** -  Change the directory to `django-api`
+> 👉 **Step #1** -  Change the directory to `django-api`
 
 ```bash
 $ cd django-api
@@ -92,7 +92,7 @@ $ cd django-api
 
 <br />
 
-> **Step #2** - Create a virtual environment
+> 👉 **Step #2** - Create a virtual environment
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
@@ -106,7 +106,7 @@ $ # .\env\Scripts\activate
 
 <br />
 
-> **Step #3** - Install dependencies using PIP
+> 👉 **Step #3** - Install dependencies using PIP
 
 ```bash
 $ pip install -r requirements.txt
@@ -114,7 +114,7 @@ $ pip install -r requirements.txt
 
 <br />
 
-> **Step #4** - Create a new `.env` file using sample `env.sample`
+> 👉 **Step #4** - Create a new `.env` file using sample `env.sample`
 
 The meaning of each variable can be found below: 
 
@@ -124,7 +124,7 @@ The meaning of each variable can be found below:
 
 <br />
 
-> **Step #5** - Start the API server
+> 👉 **Step #5** - Start the API server
 
 ```bash
 $ python manage.py migrate
@@ -135,7 +135,7 @@ The API server will start using the explicit port `5000`.
 
 <br />
 
-### Compile & start the React UI
+### Compile & start the **React UI**
 
 ```bash
 $ cd react-ui
@@ -178,7 +178,7 @@ const config = {
 
 For a fast set up, use this POSTMAN file: [api_sample](https://github.com/app-generator/api-server-unified/blob/main/api.postman_collection.json)
 
-> **Register** - `api/users/register` (**POST** request)
+> 👉 **Register** - `api/users/register` (**POST** request)
 
 ```
 POST api/users/register
@@ -193,7 +193,7 @@ Content-Type: application/json
 
 <br />
 
-> **Login** - `api/users/login` (**POST** request)
+> 👉 **Login** - `api/users/login` (**POST** request)
 
 ```
 POST /api/users/login
@@ -207,7 +207,7 @@ Content-Type: application/json
 
 <br />
 
-> **Logout** - `api/users/logout` (**POST** request)
+> 👉 **Logout** - `api/users/logout` (**POST** request)
 
 ```
 POST api/users/logout
