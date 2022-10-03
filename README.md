@@ -34,7 +34,7 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 ## ✨ Quick-start 
 
-> Start the Django API using `Docker`
+> 👉 **Start the [Django API](./django-api)** using `Docker`
 
 ```bash
 $ cd django-api
@@ -45,7 +45,7 @@ At this point, the API should be up & running at `http://localhost:5000`, and we
 
 <br />
 
-> Start the React UI (using another terminal)
+> 👉 **Start the [React UI](./react-ui)** (using another terminal)
 
 ```bash
 $ cd react-ui
