@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.2] 2022-10-03
+### Improvements
+
+- Update [Django API](https://github.com/app-generator/api-server-django) **v1.0.3**
+  
 ## [1.0.1] 2022-01-28
 ### Improvements
 
