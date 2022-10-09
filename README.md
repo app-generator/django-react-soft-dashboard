@@ -166,10 +166,15 @@ Now, the API will start on port `5000`.
 **API Server URL** - `src/config/constant.js` 
 
 ```javascript
-const config = {
-    ...
     API_SERVER: 'http://localhost:5001/api/'  // <-- The magic line
-};
+```
+
+The value can be updated during the build using the environment
+
+```bash
+$ export REACT_APP_BACKEND_SERVER='http://localhost:5001/api/' # Unix/MacOS
+$ set REACT_APP_BACKEND_SERVER='http://localhost:5001/api/'    # Windows CMD
+$ $env:REACT_APP_BACKEND_SERVER='http://localhost:5001/api/'   # Windows PowerShell
 ```
 
 <br />
