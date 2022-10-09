@@ -1,7 +1,13 @@
 # Change Log
 
+## [1.0.4] 2022-10-09
+### Improvements (`Django Codebase`)
+
+- Manage CORS_HOSTS via `env`
+- Added `django-environ` for ENV management 
+
 ## [1.0.3] 2022-10-09
-### Improvements
+### Improvements (`React Codebase`)
 
 - React Codebase
   - Read `BACKEND_URL` from env (optional)  
