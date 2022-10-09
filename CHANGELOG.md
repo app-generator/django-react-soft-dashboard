@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.3] 2022-10-09
+### Improvements
+
+- React Codebase
+  - Read `BACKEND_URL` from env (optional)  
+
 ## [1.0.2] 2022-10-03
 ### Improvements
 
