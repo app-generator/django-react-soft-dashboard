@@ -1,12 +1,12 @@
-# [Django React Soft Dashboard](https://appseed.us/product/django-react-soft-dashboard)
+# [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/)
 
-Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/django-react-soft-dashboard) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
+Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
 
 <br />
 
 > Features
 
-- Innovative Material-UI Design - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
+- Innovative `Material-UI Design` - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
 - React, Redux, Redux-persist
 - Authentication: JWT Login/Register/Logout
 - **Full-stack Ready** using a **Django API Server** (open-source project) - Server Features
@@ -16,9 +16,9 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 > Links
 
-- 👉 [Django React Soft Dashboard](https://appseed.us/product/django-react-soft-dashboard) - product page
+- 👉 [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - product page
 - 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-- 🎁 Free [Support](https://appseed.us/support) via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- 🎁 Free [Support](https://appseed.us/support/) - `Email` and `Discord`.
 
 <br />
 
@@ -254,4 +254,4 @@ authorization: JWT_TOKEN (returned by Login request)
 <br />
 
 ---
-[Django React Soft Dashboard](https://appseed.us/product/django-react-soft-dashboard) - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+[Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - Provided by **[App Generator](https://appseed.us/app-generator)**.
