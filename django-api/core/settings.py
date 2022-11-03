@@ -149,8 +149,10 @@ REST_FRAMEWORK = {
 }
 
 # ##################################################################### #
-# ################### CORS              ############################### #
+#  CORS 
 # ##################################################################### #
+
+CORS_ALLOW_ALL_ORIGINS=True
 
 # Load the default ones
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
@@ -160,9 +162,10 @@ CORS_ALLOWED_ORIGINS_ENV = env("CORS_ALLOWED_ORIGINS", default=None)
 
 if CORS_ALLOWED_ORIGINS_ENV:
     CORS_ALLOWED_ORIGINS += CORS_ALLOWED_ORIGINS_ENV.split(' ')
- 
+
+
 # ##################################################################### #
-# ################### TESTING           ############################### #
+#  TESTING 
 # ##################################################################### #
 
 TESTING = False
