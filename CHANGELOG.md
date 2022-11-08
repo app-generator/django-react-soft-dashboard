@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.5] 2022-11-08
+### Improvements 
+
+- Added markers for deploy automation
+  - `appseed.json` specify the type of the project
+  - `react-ui`/package.json
+    - **build** node specify the compatibility matrix
+
 ## [1.0.4] 2022-10-09
 ### Improvements (`Django Codebase`)
 
