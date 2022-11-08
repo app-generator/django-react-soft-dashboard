@@ -1,0 +1,5 @@
+{
+    "name": "django-react-soft-dashboard",
+    "type": "fullstack",
+    "dirs": "django-api, react-ui"
+}
