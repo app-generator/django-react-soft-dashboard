@@ -2,23 +2,31 @@
 
 Start your Development with an Innovative Admin Template for **Material-UI** and **React**. [Soft UI Dashboard React](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. The product comes with a simple JWT authentication flow: login/register/logout. 
 
+- 👉 [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - product page
+- 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
+
+<br />
+
+## `PROMO` [Black Friday 2022](https://blog.appseed.us/black-friday-2022-vote-your-discount/)
+
+> This [campaign](https://blog.appseed.us/black-friday-2022-vote-your-discount/) starts on `15-NOV` and the users are able to `vote their discount`: **50, 60, 70%**: 
+
+- 👉 [Discord](https://discord.gg/fZC6hup) `announcements` channel
+- 👉 [Twitter](https://twitter.com/webappseed) (official account) 
+
+[![black-friday-2022-cover](https://user-images.githubusercontent.com/51070104/201459148-7561df9f-0a7d-4d1a-bf44-a1ac5e89c175.jpg)](https://blog.appseed.us/black-friday-2022-vote-your-discount/)
+
 <br />
 
 > Features
 
-- Innovative `Material-UI Design` - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
-- React, Redux, Redux-persist
-- Authentication: JWT Login/Register/Logout
-- **Full-stack Ready** using a **Django API Server** (open-source project) - Server Features
+- ✅ Innovative `Material-UI Design` - Creafted by [Creative-Tim](https://bit.ly/3fKQZaL)
+- ✅ React, Redux, Redux-persist
+- ✅ Authentication: JWT Login/Register/Logout
+- ✅ **Full-stack Ready** using a **Django API Server** (open-source project) - Server Features
   - Django / DRF / SQLite3 - a simple, easy to use backend
   - Authentication with JWT (login, logout, register)
   - Docker, Unitary tests
-
-> Links
-
-- 👉 [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - product page
-- 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
-- 🎁 Free [Support](https://appseed.us/support/) - `Email` and `Discord`.
 
 <br />
 
