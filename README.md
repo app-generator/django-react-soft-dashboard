@@ -5,10 +5,6 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 - 👉 [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - product page
 - 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
 
-<br />
-
-![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
-
 <br>
 
 > Features
@@ -20,6 +16,10 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
   - Django / DRF / SQLite3 - a simple, easy to use backend
   - Authentication with JWT (login, logout, register)
   - Docker, Unitary tests
+  
+<br />
+
+![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
 
 <br />
 
