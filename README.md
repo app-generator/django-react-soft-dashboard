@@ -7,13 +7,9 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 
 <br />
 
-## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+![React Soft Dashboard - Open-source full-stack product](https://user-images.githubusercontent.com/51070104/176936814-74386559-4e05-43d5-b9a4-8f70ce96a610.png)
 
-> The campaign is active until `30.NOV` and applies to all products and licenses.
-
-[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
-
-<br />
+<br>
 
 > Features
 
