@@ -5,7 +5,15 @@ Start your Development with an Innovative Admin Template for **Material-UI** and
 - 👉 [Django React Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/api-server-django/react/) - product page
 - 👉 [Django React Soft Dashboard](https://django-react-soft-dashboard.appseed-srv1.com/authentication/sign-in) - LIVE Demo
 
-<br>
+<br />
+
+## 🚀 `PROMO` [Spring Boost Campaign](https://appseed.us/discounts/) `50%OFF`
+
+> The **discount is applicable to all products and licenses** (no stock limits) until `15.MAR`
+
+[![Spring Boost Campaign](https://user-images.githubusercontent.com/51070104/221118889-171c5afc-4d01-402b-8681-61b37338e26c.png)](https://appseed.us/discounts/)
+
+<br /> 
 
 > Features
 
